@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="id" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="https://airaw.online/favicon.png">
+    <title>Blog - AI RAW UNLIMITED</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&family=Rajdhani:wght@500;700;800&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --bg-color: #0b1120;       
+            --text-color: #f1f5f9;     
+            --accent-color: #65B32E;   
+            --accent-hover: #76c93b;
+            --gold-color: #FFD700; 
+            --border-color: #334155;
+            --font-main: 'Inter', sans-serif;
+            --font-head: 'Rajdhani', sans-serif; 
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            font-family: var(--font-main);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        /* --- NAVIGATION --- */
+        nav {
+            height: 70px;
+            border-bottom: 1px solid var(--border-color);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 5%;
+            background: rgba(11, 17, 32, 0.8);
+            backdrop-filter: blur(10px);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .brand {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            text-decoration: none;
+        }
+
+        .logo-box {
+            width: 30px; height: 30px; border: 2px solid var(--accent-color);
+            border-radius: 50%; display: flex; align-items: center; justify-content: center;
+            font-family: var(--font-head); font-weight: 800; color: var(--accent-color);
+        }
+
+        .brand-name {
+            font-family: var(--font-head); font-weight: 700; color: var(--text-color);
+            font-size: 1.2rem; letter-spacing: 1px;
+        }
+
+        .back-link {
+            color: var(--accent-color);
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.9rem;
+            transition: 0.3s;
+        }
+
+        .back-link:hover { color: var(--gold-color); }
+
+        /* --- HERO SECTION --- */
+        header {
+            padding: 80px 5% 40px;
+            text-align: center;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .badge-unlimited {
+            color: var(--gold-color);
+            font-family: var(--font-head);
+            font-weight: 800;
+            letter-spacing: 2px;
+            font-style: italic;
+            margin-bottom: 15px;
+            display: block;
+        }
+
+        h1 {
+            font-family: var(--font-head);
+            font-size: clamp(2rem, 5vw, 3.5rem);
+            line-height: 1.1;
+            margin-bottom: 25px;
+            text-transform: uppercase;
+        }
+
+        .highlight { color: var(--accent-color); }
+
+        /* --- CONTENT SECTION --- */
+        article {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 5%;
+            font-size: 1.1rem;
+            color: #cbd5e1;
+        }
+
+        h2 {
+            font-family: var(--font-head);
+            color: var(--accent-color);
+            font-size: 1.8rem;
+            margin: 40px 0 20px;
+            border-left: 4px solid var(--gold-color);
+            padding-left: 15px;
+        }
+
+        p { margin-bottom: 20px; }
+
+        ul {
+            list-style: none;
+            margin-bottom: 30px;
+        }
+
+        ul li {
+            position: relative;
+            padding-left: 25px;
+            margin-bottom: 12px;
+        }
+
+        ul li::before {
+            content: "→";
+            position: absolute;
+            left: 0;
+            color: var(--accent-color);
+            font-weight: bold;
+        }
+
+        .quote-box {
+            background: rgba(101, 179, 46, 0.05);
+            border: 1px solid var(--border-color);
+            padding: 30px;
+            border-radius: 12px;
+            margin: 40px 0;
+            text-align: center;
+            font-style: italic;
+        }
+
+        /* --- FOOTER --- */
+        footer {
+            padding: 60px 5%;
+            text-align: center;
+            border-top: 1px solid var(--border-color);
+            margin-top: 50px;
+        }
+
+        .copyright {
+            font-family: var(--font-head);
+            font-size: 0.8rem;
+            color: #64748b;
+            text-transform: uppercase;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            header { padding-top: 50px; }
+            article { font-size: 1rem; }
+        }
+    </style>
+</head>
+<body>
+
+<nav>
+    <a href="index.html" class="brand">
+        <div class="logo-box">A</div>
+        <div class="brand-name">AI RAW</div>
+    </a>
+    <a href="index.html" class="back-link">← KEMBALI KE CHAT</a>
+</nav>
+
+<header>
+    <span class="badge-unlimited">UNLIMITED MOVEMENT</span>
+    <h1>AI RAW <span class="highlight">UNLIMITED</span>: Era Baru Kecerdasan Buatan Tanpa Batas</h1>
+    <p style="color: var(--gold-color); font-weight: 700; letter-spacing: 1px;">Tanpa Sensor. Tanpa Kompromi.</p>
+</header>
+
+<article>
+    <section>
+        <h2>Selamat Datang di AI RAW UNLIMITED</h2>
+        <p>Dunia telah memasuki fase baru kecerdasan buatan. Bukan lagi AI yang hanya patuh, dibatasi, dan disaring secara berlebihan, melainkan AI yang mentah, jujur, kuat, dan berpikir tanpa batas. Inilah <strong>AI RAW UNLIMITED</strong>.</p>
+        <p>AI RAW UNLIMITED bukan sekadar produk teknologi. Ia adalah sebuah gerakan intelektual. Sebuah pendekatan baru terhadap kecerdasan buatan yang dirancang untuk berpikir lebih dalam, menjawab lebih berani, dan menciptakan solusi tanpa kompromi.</p>
+    </section>
+
+    <section>
+        <h2>Apa Itu AI RAW UNLIMITED?</h2>
+        <p>AI RAW UNLIMITED adalah filosofi penggunaan kecerdasan buatan yang menekankan kemampuan berpikir maksimal dan analisis tajam. Pendekatan ini dibangun di atas prinsip bahwa AI seharusnya tidak hanya memberikan jawaban aman, tetapi jawaban terbaik.</p>
+        <p>AI RAW UNLIMITED menghadirkan kecerdasan buatan yang:</p>
+        <ul>
+            <li>Mampu menganalisis secara mendalam dan objektif</li>
+            <li>Fokus pada hasil nyata, bukan sekadar teori</li>
+            <li>Digunakan untuk pengambilan keputusan strategis</li>
+            <li>Dirancang untuk skala global dan kebutuhan tingkat tinggi</li>
+        </ul>
+    </section>
+
+    <div class="quote-box">
+        "RAW bukan berarti tanpa etika, melainkan tanpa ilusi."
+    </div>
+
+    <section>
+        <h2>Makna “RAW” dalam AI</h2>
+        <p>Sebagian besar AI modern dibentuk untuk selalu netral, berhati-hati, dan serba umum. Pendekatan ini memang aman, tetapi sering kali mengorbankan ketajaman dan relevansi.</p>
+        <p>Konsep RAW berarti kecerdasan yang:</p>
+        <ul>
+            <li>Jujur terhadap realitas</li>
+            <li>Langsung pada inti permasalahan</li>
+            <li>Tidak terjebak formalitas atau basa-basi</li>
+            <li>Mengutamakan efektivitas dan kejelasan</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Siapa yang Membutuhkan AI RAW UNLIMITED?</h2>
+        <p>AI RAW UNLIMITED ditujukan bagi individu dan organisasi yang menuntut lebih dari sekadar jawaban standar, antara lain:</p>
+        <ul>
+            <li><strong>Pengusaha</strong> yang membutuhkan strategi tajam</li>
+            <li><strong>Kreator</strong> yang menuntut ide orisinal dan berdampak</li>
+            <li><strong>Pengembang</strong> yang ingin solusi non-konvensional</li>
+            <li><strong>Pemikir visioner</strong> yang membangun masa depan</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Visi Blog Ini</h2>
+        <p>Blog ini akan menjadi ruang eksplorasi pemikiran dan praktik kecerdasan buatan tingkat lanjut, membahas strategi bisnis, analisis masa depan, hingga gagasan mentah yang jarang dibahas secara terbuka.</p>
+        <p><em>Ini bukan blog untuk semua orang. Ini adalah ruang bagi mereka yang siap berpikir lebih jauh.</em></p>
+    </section>
+
+    <section style="text-align: center; margin-top: 60px;">
+        <p><strong>Ini baru permulaan.</strong></p>
+    </section>
+</article>
+
+
+        <div style="text-align: center;">
+            <a href="blog.html" class="btn-back">KEMBALI KE BLOG</a>
+        </div>
+    </div>
+
+<footer>
+    <div style="margin-bottom: 20px;">
+        <div class="logo-box" style="margin: 0 auto 10px;">A</div>
+        <p class="brand-name" style="font-size: 1rem;">AI RAW UNLIMITED</p>
+    </div>
+    <p class="copyright">&copy; 2026 AI RAW - All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
